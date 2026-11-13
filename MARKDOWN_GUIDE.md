@@ -1,37 +1,50 @@
-# Heading 1 (largest)
-## Heading 2
-### Heading 3
+# CSE103 Lab — LAB 3: GitHub Collaboration & API Interaction
 
-**Bold text** *Italic text* ~~Strikethrough~~
+![Last Commit](https://img.shields.io/github/last-commit/khalidhussain9518-afk/cse103-lab-LAB3)
 
-Unordered list:
-- Item A
-- Item B
-  - Nested item B1 (indent with 2 spaces)
+![Language](https://img.shields.io/badge/language-Python-blue)
 
-Ordered list:
-1. First step
-2. Second step
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+## Overview
 
-Inline code: `print("Hello")`
+This repository contains lab work for LAB 3 of the Computer Fundamentals & Career Pathways (CSE103) course at K.R. Mangalam University, Gurugram.
 
-Fenced code block (use language name for syntax highlighting):
-```python
-def greet(name):
-    return f"Hello, {name}!"
+## Repository Structure
+```text
+cse103-lab-LAB3/
++-- README.md          # Project documentation
++-- MARKDOWN_GUIDE.md  # Markdown syntax reference
++-- CHANGELOG.md       # Version history
++-- main.py            # Primary Python script
++-- .gitignore         # Files excluded from Git tracking
 ```
 
-Hyperlink: [GitHub](https://github.com)
+## Skills Demonstrated
+| Skill | Status |
+|----------------------|-------------|
+| Git initialisation | Completed |
+| Meaningful commits | Completed |
+| Remote push / pull | Completed |
+| Markdown docs | Completed |
+| API interaction | Completed |
 
-Table:
+## How to Run
 
-| Column 1 | Column 2 | Column 3 |
-|----------|:--------:|---------:|
-| Left     | Centre   | Right    |
+```bash
+git clone https://github.com/khalidhussain9518-afk/cse103-lab-LAB3.git
+cd cse103-lab-LAB3
+python3 main.py
+```
 
-Blockquote:
-> An important note or reference goes here.
+## Key Learning Outcomes
 
-Horizontal divider:
+- Configured Git identity and initialised local repositories
+- Created atomic commits with Conventional Commit messages
+- Pushed and pulled changes with a GitHub remote
+- Authored structured Markdown documentation
 
----
+## References
+
+- [Pro Git Book](https://git-scm.com/book/en/v2)
+- [GitHub Skills](https://skills.github.com/)
+- [Markdown Guide](https://www.markdownguide.org/)
