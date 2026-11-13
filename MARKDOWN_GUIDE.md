@@ -1,13 +1,11 @@
-
 # Markdown Syntax Guide
 
-## Headings
+## 1. Headings
 
 # Heading 1
 ## Heading 2
 ### Heading 3
-
-## Text Formatting
+## 2. Text Formatting
 
 **Bold text**
 
@@ -15,43 +13,40 @@
 
 ~~Strikethrough text~~
 
-## Unordered List
+## 3. Unordered List
 
 - Item A
 - Item B
   - Nested item B1
-
-## Ordered List
+## 4. Ordered List
 
 1. First step
 2. Second step
 
-## Inline Code
+## 5. Inline Code
 
 `print("Hello")`
 
-## Fenced Code Block
-
+## 6. Fenced Code Block
 ```python
 def greet(name):
     return f"Hello, {name}!"
 ```
 
-## Hyperlink
+## 7. Hyperlink
 
 [GitHub](https://github.com)
 
-## Table
+## 8. Table
 
 | Column 1 | Column 2 | Column 3 |
 |----------|:--------:|----------:|
 | Left | Centre | Right |
 
-## Blockquote
+## 9. Blockquote
 
 > An important note or reference goes here.
 
-## Horizontal Divider
+## 10. Horizontal Divider
 
 ---
-
